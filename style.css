@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header, footer{
+    background-color: rgb(46, 156, 156);
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.grid-item{
+    background-color: rgb(174, 226, 228);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.card{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(53, 53, 6);
+    margin-top: 10px;
+
+}
+
+.card img{
+    width: 100%;
+
+}
